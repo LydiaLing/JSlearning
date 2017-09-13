@@ -1,21 +1,57 @@
-.main-header {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-bottom: 30px;
-  font-size: 24px;
-  text-align: left;
-  background-color: #6f5499;
+.navbar-brand>img {
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
 }
+.main-header {  
+    padding-top: 220px;
+    padding-bottom: 220px;
+    margin-bottom: 50px;
+    text-align: left;
+    background-image: url();
+    background-size:85%;
+  }
+  .main-header h1 {
+    font-size: 40px;
+    color: #000000;
+  }
+  .avatar {
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    border-radius: 10px;
+    float: left;
+    margin-right: 18px;
+    cursor: default;
+  }
 
-.main-header h1 {
-  margin-top: 0;
-  color: #fff;
+ 
+  .jumbotronbanner {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-position: center;
+    text-align:center;
+    width: auto;
+    height: 670px;
+    
 }
-
-.words-pannel {
-  margin-top: 10px;
+.footerlogo {
+  position: center;
+  height: 40 px;
+  width: 40px;
+  font-size:10px;
+  text-shadow: black 0.05em 0.05em 0.05em;
 }
-
+.footerbg {
+  background-color: #dff0d8;
+  background-position: center;
+  height: 100px;
+  text-align: center;
+  color: white;
+  text-shadow: black 0.05em 0.05em 0.05em;
+}
 .avatar {
   height: 48px;
   width: 48px;
@@ -26,4 +62,54 @@
   float: left;
   margin-right: 18px;
   cursor: default;
+}
+.panel {
+  background-color: #FAFAFA;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  color: #B0B0B0;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  transition: background-color .2s
+  cubic-bezier(0.4, 0, 0.2, 1),box-shadow .3s
+  cubic-bezier(0.4, 0, 0.2, 1),color .2s
+  cubic-bezier(0.4, 0, 0.2, 1),fill .2s
+  cubic-bezier(0.4, 0, 0.2, 1);
+}
+.panel-heading{
+  text-align: center;
+  position: relative;
+  font-size: auto;
+  background-color:#229ffd;
+}
+.panel:hover {
+  box-shadow: 0 4px 5px rgba(0,0,0,0.4);
+  color: #000;
+}
+.thumbnail{
+  background-color: #FAFAFA;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  color: #B0B0B0;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  transition: background-color .2s
+  cubic-bezier(0.4, 0, 0.2, 1),box-shadow .3s
+  cubic-bezier(0.4, 0, 0.2, 1),color .2s
+  cubic-bezier(0.4, 0, 0.2, 1),fill .2s
+  cubic-bezier(0.4, 0, 0.2, 1);
+}
+.thumbnail:hover {
+  box-shadow: 0 4px 5px rgba(0,0,0,0.4);
+  color: #000;
+}
+.hr {
+  width: 100px;
+  margin: 20px auto;
 }
